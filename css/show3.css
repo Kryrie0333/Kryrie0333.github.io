@@ -1,0 +1,277 @@
+/*右侧tab*/
+#feature{
+  height: 808px;
+  width: 100%;
+  background:url(../images/6.jpg) no-repeat left 0;
+}
+.aside{
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 201px;
+  height: 100%;
+  background: url(../images/aside_bg.png) repeat;
+  overflow: hidden;
+}
+.aside_nav{
+  width: 201px;
+}
+.aside_nav li{
+  float: left;
+  display: block;
+  width: 100%;
+  height: 100%;
+}
+.aside_t {
+  display: block;
+  width: 100%;
+  height: 70px;
+  background: url(../images/aside.png) no-repeat top;
+  overflow: hidden;
+}
+#aside_t1 {
+  height: 99px;
+  background-position: 0 0;
+  text-indent: -9999px;
+}
+#aside_t1:hover{
+  background-position: -201px 0;
+}
+#aside_t2 {
+  background-position: 0 -99px;
+  text-indent: -9999px;
+}
+#aside_t2:hover{
+  background-position: -201px -99px;
+  text-indent: -9999px;
+}
+#aside_t3 {
+  background-position: 0 -169px;
+  text-indent: -9999px;
+}
+#aside_t3:hover {
+  background-position: -201px -169px;
+  text-indent: -9999px;
+}
+#aside_t4 {
+  background-position: 0 -239px;
+  text-indent: -9999px;
+}
+#aside_t4:hover {
+  background-position: -201px -239px;
+  text-indent: -9999px;
+}
+#aside_t5 {
+  background-position: 0 -309px;
+  text-indent: -9999px;
+}
+#aside_t5:hover {
+  background-position: -201px -309px;
+  text-indent: -9999px;
+}
+#aside_t6 {
+  background-position: 0 -379px;
+  text-indent: -9999px;
+}
+#aside_t6:hover {
+  background-position: -201px -379px;
+  text-indent: -9999px;
+}
+#aside_t7 {
+  background-position: 0 -449px;
+  text-indent: -9999px;
+}
+#aside_t7:hover {
+  background-position: -201px -449px;
+  text-indent: -9999px;
+}
+#aside_t8 {
+  background-position: 0 -519px;
+  text-indent: -9999px;
+}
+#aside_t8:hover {
+  background-position: -201px -519px;
+  text-indent: -9999px;
+}
+#aside_t9 {
+  float: left;
+  height: 40px;
+  width: 80px;
+  background-position: 0 -589px;
+  color: #AA9666;
+  text-align: center;
+  font-size: 14px;
+  font-family: "宋体";
+  line-height: 40px;
+  padding: 12px 0 0 20px;
+}
+#aside_t10 {
+  float: left;
+  height: 40px;
+  width: 70px;
+  background-position: -100px -589px;
+  color: #AA9666;
+  font-size: 14px;
+  font-family: "宋体";
+  line-height: 40px;
+  padding: 12px 0 0 31px;
+}
+
+
+/*内容*/
+#feature .content {
+  width: 1080px;
+  height: 818px;
+  margin-left: 201px;
+  padding-left: 48px;
+  overflow: hidden;
+}
+#feature_nav {
+  width: 168px;
+  height: 620px;
+  overflow: hidden;
+  position: absolute;
+  top: 52px;
+  left: 1003px;
+  z-index: 10;
+}
+
+#feature_nav a {
+  background: url(../images/fashion_nav.png) no-repeat;
+  width: 110px;
+  display: block;
+  position: absolute;
+  top: 0;
+  height: 110px;
+  text-indent: -999em;
+  overflow: hidden;
+}
+#feature_nav a#f_nav0 {
+  left: 0;
+  background: url(../images/fashion_nav.png) no-repeat 0 0;
+}
+#feature_nav>a#f_nav0:hover{
+  background: url(../images/fashion_nav.png) no-repeat -110px 0;
+}
+#feature_nav a#f_nav1 {
+  left: 56px;
+  top: 56px;
+  background-position: -222px 0;
+}
+#feature_nav a#f_nav1:hover{
+  background: url(../images/fashion_nav.png) no-repeat -333px  0;
+}
+#feature_nav a#f_nav2 {
+  left: 0;
+  top: 112px;
+  background-position: 0 -112px;
+}
+#feature_nav a#f_nav2:hover{
+  left: 0;
+  top: 112px;
+  background-position: -110px -112px;
+}
+#feature_nav a#f_nav3 {
+  left: 56px;
+  top: 168px;
+  background-position: -222px -110px;
+}
+#feature_nav a#f_nav3:hover{
+  background: url(../images/fashion_nav.png) no-repeat -333px  -110px;
+}
+#feature_nav a#f_nav4 {
+  left: 0;
+  top: 224px;
+  background-position: 0 -224px;
+}
+#feature_nav a#f_nav4:hover{
+  background: url(../images/fashion_nav.png) no-repeat -110px  -222px;
+}
+#feature_nav a#f_nav5 {
+  left: 56px;
+  top: 282px;
+  background-position: -222px -226px;
+}
+#feature_nav a#f_nav5:hover{
+  background: url(../images/fashion_nav.png) no-repeat -333px  -220px;
+}
+#feature_nav a#f_nav6 {
+  left: 0;
+  top: 338px;
+  background-position: 0 -338px;
+}
+#feature_nav a#f_nav6:hover{
+  background: url(../images/fashion_nav.png) no-repeat -110px  -338px;
+}
+#feature_nav a#f_nav7 {
+  left: 59px;
+  top: 395px;
+  background-position: -222px -339px;
+}
+#feature_nav a#f_nav7:hover{
+  background: url(../images/fashion_nav.png) no-repeat -333px  -338px;
+}
+#feature_nav a#f_nav8 {
+  left: 0;
+  top: 452px;
+  background-position: 0 -452px;
+}
+#feature_nav a#f_nav8:hover{
+  background: url(../images/fashion_nav.png) no-repeat -110px  -450px;
+}
+#feature_nav a#f_nav9 {
+  left: 58px;
+  top: 510px;
+  background-position: -222px -452px;
+}
+#feature_nav a#f_nav9:hover{
+  background: url(../images/fashion_nav.png) no-repeat -333px  -450px;
+}
+/*底边栏*/
+#footer {
+  clear: both;
+  height: 80px;
+  width: 100%;
+  padding-top: 20px;
+  overflow: hidden;
+  color: #fff;
+  background-color: #212121;
+}
+.nie-copyRight-new-inner {
+  width: 1020px;
+  text-align: left;
+  margin: 0 auto;
+  padding: 15px 0 10px;
+  font-size: 12px;
+  font-family: SimSun;
+  line-height: 20px;
+  display: block;
+}
+.nie-copyRight-new-inner .nie-cn-logo {
+  display: inline-block;
+  vertical-align: middle;
+  height: 48px;
+  min-width: 280px;
+}
+.nie-copyright-new-inner .nie-cn-logo a {
+  display: inline-block;
+  vertical-align: top;
+  margin-top: 2px;
+}
+.nie-copyright-new-inner .nie-cn-logo img {
+  padding-right: 15px;
+  padding-top: 5px;
+  border: 0;
+  vertical-align: middle;
+}
+.nie-copyright-new-inner .nie-cn-nav {
+  display: inline-block;
+  vertical-align: top;
+  padding-left: 6px;
+  position: relative;
+  z-index: 1;
+  font-family: SimSun;
+  font-size: 12px;
+  line-height: 20px;
+  text-align: left;
+}

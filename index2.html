@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <title>Title</title>
+  <link rel="stylesheet" href="css/common.css">
+  <link rel="stylesheet" href="css/show2.css">
+</head>
+<body>
+<!--右侧tab-->
+<div class="w" id="feature">
+  <div class="aside">
+    <ol class="aside_nav">
+      <li class="aside_i"><a href="javascript:;" class="aside_t" id="aside_t1"></a></li>
+      <li class="aside_i"><a href="index.html" class="aside_t" id="aside_t2"></a></li>
+      <li class="aside_i"><a href="javascript:;" class="aside_t" id="aside_t3"></a></li>
+      <li class="aside_i"><a href="index2.html" class="aside_t" id="aside_t4"></a></li>
+      <li class="aside_i"><a href="index3.html" class="aside_t" id="aside_t5"></a></li>
+      <li class="aside_i"><a href="javascript:;" class="aside_t" id="aside_t6"></a></li>
+      <li class="aside_i"><a href="javascript:;" class="aside_t" id="aside_t7"></a></li>
+      <li class="aside_i"><a href="javascript:;" class="aside_t" id="aside_t8"></a></li>
+      <li class="aside_i"><a href="javascript:;" class="aside_t" id="aside_t9">账号注册</a>
+        <a href="javascript:;" class="aside_t" id="aside_t10">游戏下载</a></li>
+    </ol>
+  </div>
+<!--内容-->
+  <div class="content">
+    <div class="equip_word"></div>
+  <div id="right_nav">
+    <ul class="tab">
+      <li class="r_nav active"><a href="#" id="r_nav0">白</a></li>
+      <li class="r_nav"><a href="javascript:;" id="r_nav1">金</a></li>
+      <li class="r_nav"><a href="javascript:;" id="r_nav2">橙</a></li>
+      <li class="r_nav"><a href="javascript:;" id="r_nav3">绿</a></li>
+      <li class="r_nav"><a href="javascript:;" id="r_nav4">蓝</a></li>
+      <li class="r_nav"><a href="javascript:;" id="r_nav5">红</a></li>
+      <li class="r_nav"><a href="javascript:;" id="r_nav6">紫</a></li>
+      <li class="r_nav"><a href="javascript:;" id="r_nav7">鬼</a></li>
+    </ul>
+  </div>
+  <div id="right_content">
+      <div class="right_wrap selected" id="right_wrap0"></div>
+      <div class="right_wrap" id="right_wrap1"></div>
+      <div class="right_wrap" id="right_wrap2"></div>
+      <div class="right_wrap" id="right_wrap3"></div>
+      <div class="right_wrap" id="right_wrap4"></div>
+      <div class="right_wrap" id="right_wrap5"></div>
+      <div class="right_wrap" id="right_wrap6"></div>
+      <div class="right_wrap" id="right_wrap7"></div>
+
+  </div>
+
+   <p class="equip_intro">注：不同等级服装，武器外观显示，以女魅者为例</p>
+    <a href="javascript:;" class="equip_btn" id="equip_btn1">装备综述</a>
+    <a href="javascript:;" class="equip_btn" id="equip_btn2">装备库</a>
+    <a href="javascript:;" class="equip_btn" id="equip_btn3">最高装备神兵</a>
+  </div>
+</div>
+
+<!--底边栏-->
+
+<div id="footer">
+  <div id="NIE-copyRight">
+    <div class="nie-copyRight-new-inner">
+      <div class="nie-cn-part1">
+        <span class="nie-cn-logo">
+          <a href="javascript:;" class="a0"><img src="images/1.png" alt=""></a>
+          <a href="javascript:;" class="a1"><img src="images/2.png" alt=""></a>
+          <img src="images/3.png" alt="">
+          <a href="javascript:;" class="a2"><img src="images/4.png" alt=""></a>
+          <a href="javascript:;" class="a3"><img src="images/5.png" alt=""></a>
+        </span>
+        <span class="nie-cn-nav">
+          <i class="nie-cn-nav-i1">
+            <a href="#">公司简介</a>
+            -
+            <a href="#">客户服务</a>
+            -
+            <a href="#">相关法律</a>
+            -
+            <a href="#">网易游戏</a>
+            -
+            <a href="#">联系我们</a>
+            -
+            <a href="#">商务合作</a>
+            -
+            <a href="#">加入我们</a>
+          </i>
+        </span>
+      </div>
+    </div>
+  </div>
+
+</div>
+
+
+<script src="js/animate.js"></script>
+<script src="js/jquery-1.12.4.js"></script>
+<script>
+  $(function () {
+    $(".r_nav").click(function () {
+      $(this).addClass("active").siblings().removeClass("active");
+      var idx = $(this).index();
+      $(".right_wrap").eq(idx).addClass("selected").siblings().removeClass("selected");
+    });
+  });
+
+</script>
+</body>
+</html>

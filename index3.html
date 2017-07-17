@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <title>Title</title>
+  <link rel="stylesheet" href="css/common.css">
+  <link rel="stylesheet" href="css/show3.css">
+</head>
+<body>
+<!--右侧tab-->
+<div class="w" id="feature">
+  <div class="aside">
+    <ol class="aside_nav">
+      <li class="aside_i"><a href="javascript:;" class="aside_t" id="aside_t1"></a></li>
+      <li class="aside_i"><a href="index.html" class="aside_t" id="aside_t2"></a></li>
+      <li class="aside_i"><a href="javascript:;" class="aside_t" id="aside_t3"></a></li>
+      <li class="aside_i"><a href="index2.html" class="aside_t" id="aside_t4"></a></li>
+      <li class="aside_i"><a href="index3.html" class="aside_t" id="aside_t5"></a></li>
+      <li class="aside_i"><a href="javascript:;" class="aside_t" id="aside_t6"></a></li>
+      <li class="aside_i"><a href="javascript:;" class="aside_t" id="aside_t7"></a></li>
+      <li class="aside_i"><a href="javascript:;" class="aside_t" id="aside_t8"></a></li>
+      <li class="aside_i"><a href="javascript:;" class="aside_t" id="aside_t9">账号注册</a><a href="#" class="aside_t" id="aside_t10">游戏下载</a></li>
+    </ol>
+  </div>
+
+  <!--neirong-->
+  <div class="content">
+    <div id="feature_nav">
+      <a href="#" id="f_nav0" >全部</a>
+      <a href="#" id="f_nav1" >小清新</a>
+      <a href="#" id="f_nav2" >异域风情</a>
+      <a href="#" id="f_nav3" >性感</a>
+      <a href="#" id="f_nav4" >古典风雅</a>
+      <a href="#" id="f_nav5" >华丽</a>
+      <a href="#" id="f_nav6" >硬朗</a>
+      <a href="#" id="f_nav7" >节日</a>
+      <a href="#" id="f_nav8" >动感</a>
+      <a href="#" id="f_nav9" >卖萌</a>
+    </div>
+  </div>
+</div>
+
+
+<!--底边栏-->
+
+<div id="footer">
+  <div id="NIE-copyRight">
+    <div class="nie-copyRight-new-inner">
+      <div class="nie-cn-part1">
+        <span class="nie-cn-logo">
+          <a href="#" class="a0"><img src="images/1.png" alt=""></a>
+          <a href="#" class="a1"><img src="images/2.png" alt=""></a>
+          <img src="images/3.png" alt="">
+          <a href="#" class="a2"><img src="images/4.png" alt=""></a>
+          <a href="#" class="a3"><img src="images/5.png" alt=""></a>
+        </span>
+        <span class="nie-cn-nav">
+          <i class="nie-cn-nav-i1">
+            <a href="#">公司简介</a>
+            -
+            <a href="#">客户服务</a>
+            -
+            <a href="#">相关法律</a>
+            -
+            <a href="#">网易游戏</a>
+            -
+            <a href="#">联系我们</a>
+            -
+            <a href="#">商务合作</a>
+            -
+            <a href="#">加入我们</a>
+          </i>
+        </span>
+      </div>
+    </div>
+  </div>
+
+</div>
+
+
+<script src="js/animate.js"></script>
+<script src="js/jquery-1.12.4.js"></script>
+
+<script>
+$("#feature_nav>a").on("click",function(){
+  var idx=$(this).index()+6;
+  console.log(idx);
+    $("#feature").css("backgroundImage","url(images/"+idx+".jpg")
+
+
+})
+
+</script>
+
+</body>
+</html>
